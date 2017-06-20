@@ -1,0 +1,75 @@
+body{
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container{
+    display: table;
+    margin: 0 auto;
+    background: #4CAF50;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 700px;
+    height: 300px;
+    height: 500px; 
+}
+
+a{
+    text-transform: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #fff;
+}
+.header{
+    background:#9370DB /*#0D47A1*/;
+    margin-top: -20px;
+}
+
+#header-text{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+.display{
+    color: white;
+    font-size: 20px;
+}
+.channels{
+    position: relative;
+    
+}
+#logo{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.channels{
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row{
+    padding: 10px;
+}
+
+#aboutMe{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: #9370DB;
+    float: right;
+    margin-right: 40px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#aboutMe > h2{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+    font-family: sans-serif;
+}
